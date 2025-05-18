@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sid'ahmed Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sid'ahmed</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Accueil</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sid'ahmed Saike</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Accueil</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Expérience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      
+      <div class="section__text">
+        <p class="section__text__p1">Bonjour, je suis</p>
+        <h1 class="title">Sid'ahmed  Saike</h1>
+        <p class="section__text__p2">Web Développeur</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Sidahmed-CV.pdf')"
+          >
+            Télécharger CV
+          </button>
+          <button class="btn btn-color-2"">
+            Informations de Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          
+          <img
+            src="./assets/github.png"
+            alt="Mon profil Github"
+            class="icon"
+            onclick="location.href='https://github.com/sid7med';"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="fade-in">
+      <p class="section__text__p1">En savoir plus</p>
+      <h1 class="title">À propos de moi</h1>
+      <div class="section-container">
+          
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <h3>Experience</h3>
+                  <p>2+ years <br />Full Stuck Development</p>
+                </div>
+                <div class="details-container">
+                  <img
+                    src="./assets/education.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                  <h3>Education</h3>
+                  <p>Étudiant en deuxième année de licence professionnelle en développement de systèmes informatiques à l’Institut Supérieur du Numérique SupNum</p>
+                </div>
+              </div>
+          <div class="text-container">
+            <p>
+              Développeur passionné avec une solide expérience dans le développement web.
+              Je m'efforce de créer des applications web modernes et performantes
+              en utilisant les dernières technologies. Mon objectif est de
+              fournir des solutions innovantes qui répondent aux besoins des utilisateurs
+              tout en maintenant un code propre et maintenable.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Découvrez mon</p>
+      <h1 class="title">Expérience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Développement Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Expérience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Expérience</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Base</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Expérience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Développement Backend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spring boot</h3>
+                  <p>Intermédiaire</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermédiaire</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>laravel</h3>
+                  <p>Intermédiaire</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermédiaire</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermédiaire</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Base de données</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mysql</h3>
+                  <p>Expérience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mangodb</h3>
+                  <p>Baze</p>
+                </div>
+              </article>
+            </div>
+          </div>
+      <secter>
+        
+      </secter>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Découvrez mon</p>
+      <h1 class="title">Projets</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cerruncy.png"
+                class="icon"
+                /> <!-- Placeholder icon -->
+            </div>
+            <h3 class="experience-sub-title project-title">Application web de prévision des devises</h3>
+            <div class="text-container" >
+              <p>DèveIoppement d'une app pour la Prédiciton de taux d'échange MRU en USD et EUR </p>
+              <p><b>Technologies</b> : React,Django,des techniques de machine learning comme ARIMA, SARIMA, SVR et VAR.
+              </p>
+            </div>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/education_3976555.png"
+                class="icon"/> <!-- Placeholder icon -->
+            </div>
+            <h2 class="experience-sub-title project-title">Gestion des projets intégrateurs et stages</h2>
+            <div class="text-container">
+              <p>Soumission de candidatures et gestion des affectations</p>
+              <p><b>Technologies</b> : HTML, CSS, JavaScript, PHP, MySQL</p>
+            </div>
+            <div class="btn-container">
+              <!-- Add project buttons here if needed -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bus.png"
+                class="icon" /> <!-- Placeholder icon -->
+            </div>
+            <h2 class="experience-sub-title project-title">Gestion de transports</h2>
+            <div class="text-container">
+              <p>Développement d'une solution numérique pour la gestion et le suivi des opérations de transport.</p>
+              <p><b>Technologies</b> : Laravel, Filement,Livewire, MySQL</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:23087@supnum.mr">23087@supnum.mr</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/sid7med">GitHub Profile</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Accueil</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sid'ahmed Khattra. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
